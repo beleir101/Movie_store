@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Store</title>
+  </head>
+  <body>
+    <div class="flex justify-between p-5">
+      <h1 class="text-2xl font-sans text-teal-400 text-bold">Movie Store</h1>
+      <form role="search" id="searchBar">
+        <input
+          class="shadow rounded bg-slate-800 p-2 text-slate-50"
+          placeholder="Search...."
+          id="searching"
+          type="search"
+          name="S"
+        />
+      </form>
+    </div>
+    <div
+      id="mainpart"
+      class="flex gap-3 flex-wrap w-full justify-between"
+    ></div>
+    <script src="main.js"></script>
+  </body>
+</html>
